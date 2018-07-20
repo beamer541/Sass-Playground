@@ -1,0 +1,35 @@
+$bg: #aaacaf;
+$container-width: 70%;
+$ff: 'arial', helvetica, sans-serif;
+$default-padding: 0px 10px 5px 10px;
+
+.clearfix {
+    &:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+.wrapper {
+    background-color: $bg;
+    width: $container-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $default-padding;
+    font-family: $ff;
+
+    h1 {
+        text-align: center;
+    }
+
+    main {
+        img {
+            float: left;
+            margin: 0px 10px 5px 0px;
+
+            @extend .clearfix;
+        }
+    }
+
+}

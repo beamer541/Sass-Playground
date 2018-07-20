@@ -1,0 +1,19 @@
+.clearfix:after, .wrapper main img:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.wrapper {
+  background-color: #aaacaf;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px 5px 10px;
+  font-family: "arial", helvetica, sans-serif; }
+  .wrapper h1 {
+    text-align: center; }
+  .wrapper main img {
+    float: left;
+    margin: 0px 10px 5px 0px; }
+
+/*# sourceMappingURL=styles.css.map */
