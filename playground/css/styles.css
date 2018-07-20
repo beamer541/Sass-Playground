@@ -3,6 +3,17 @@
   display: block;
   clear: both; }
 
+header .menu-container ul li {
+  display: inline;
+  margin-right: 6px;
+  padding: 0.4em;
+  border-right: 1px solid black; }
+  header .menu-container ul li:nth-of-type(4) {
+    margin-right: 0;
+    border-right: none; }
+  header .menu-container ul li a {
+    text-decoration: none; }
+
 .wrapper {
   background-color: #aaacaf;
   width: 70%;

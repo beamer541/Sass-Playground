@@ -11,6 +11,26 @@ $default-padding: 0px 10px 5px 10px;
     }
 }
 
+header {
+    .menu-container {
+        ul {
+            li {
+                display: inline;
+                margin-right: 6px;
+                padding: 0.4em;
+                border-right: 1px solid black;
+                &:nth-of-type(4) {
+                    margin-right: 0;
+                    border-right: none;
+                }
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
 .wrapper {
     background-color: $bg;
     width: $container-width;
