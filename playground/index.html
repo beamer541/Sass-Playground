@@ -4,6 +4,18 @@
         <meta charset="utf-8">
         <title>sass-test</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+              crossorigin="anonymous">
+        </script>
+		
+        <script>
+            console.log(jQuery);
+            if(window.jQuery === undefined) {
+                document.write('<script src="jquery-3.3.1.min.js"><\/script>');
+            }
+        </script>
+        <script src="scripts/changeColor.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -21,7 +33,7 @@
                                 <a href="#" title="See the imprint">Imprint</a>
                             </li>
                             <li>
-                                <a href="#" title="change color">Color</a>
+                                <a href="#" title="change color" id="changeColorClicker">Color</a>
                             </li>
                         </ul>
                     </div>
